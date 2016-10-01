@@ -1,1 +1,1 @@
-Put your project's source files in this folder. When you run gulp build, it will process everything in this directory and place it into the dist directory.
+Put your project's source files in this folder. When you run gulp build, it will process everything in this directory and place it into the dist directory. The files that are in this folder are for illustrative purposes only. Please remove anything in this folder before you use this boilerplate for your own purposes.
