@@ -1,0 +1,1 @@
+$(function() { $(".collapsibleTarget").click(function() { $(this).hasClass("on") ? $(this).removeClass("on").next(".collapsibleContent").removeClass("on") : ($(".collapsibleTarget, .collapsibleContent").removeClass("on"), $(this).addClass("on").next(".collapsibleContent").addClass("on")) }) });

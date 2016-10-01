@@ -1,0 +1,160 @@
+@media screen and (min-width: @bpLarge){
+	body{
+		padding: 66px 0 68px;
+	}
+
+	header{
+		margin: 0 0 26px;
+		padding: 12px 0 9px;
+
+		.email{
+			order: 2;
+			display: block;
+			font-size: 18px;
+			line-height: 18px;
+			text-transform: uppercase;
+			color: @white;
+			font-weight: @bold;
+			text-decoration: none;
+		}
+	}
+
+	#logo{
+		display: none
+	}
+
+	.infoContainer{
+		max-width: 620px;
+		padding: 0 10px;
+		margin: 0 auto;
+		justify-content: flex-start;
+		align-items: stretch;
+		flex-wrap: no-wrap;
+	}
+
+	.motto{
+		display: none;
+	}
+
+	.phone{
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	#social{
+		order: 1;
+		margin: 0 auto 0 9px;
+	}
+
+	nav{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto 36px;
+		max-width: 620px;
+		padding: 0 10px;
+	}
+
+	.navItem{
+		border: 0;
+		padding: 14px;
+		margin: 0;
+		border-radius: 0 14px;
+		width: auto;
+		color: @brown2;
+		transition: color .5s ease-in-out;
+
+		&:hover{
+			color: @green1;
+		}
+
+		&.on{
+			background-image: linear-gradient(to bottom, @brown3 0, @brown4 100%);
+			color: @white !important;
+		}
+	}
+
+	#mainLogo{
+		width: 100%;
+		max-width: 340px;
+		height: auto;
+		display: block;
+		margin: 0 auto 26px;
+	}
+
+	#content{
+		margin: 0 auto 52px;
+	}
+
+	.introCopy{
+		font-size: 20px;
+		font-weight: @book;
+		line-height: 24px;
+	}
+
+	#twitter{
+		margin: 0 0 52px;
+	}
+
+	.companyPhoto{
+		position: relative;
+		top: -48px;
+		margin: 0 0 -48px 20px;
+		float: right;
+		display: inline-block;
+		width: percentage(280 / 620);
+	}
+
+	.aboutCopy{
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.floatRight{
+		display: inline-block;
+		float: right;
+	}
+
+	footer{
+		position: fixed;
+		bottom: 0;
+		z-index: 10;
+		border-top: 2px solid @white;
+	}
+
+	.infoContainer,
+	footer{
+		width: 100%;
+	}
+
+	.footerType{
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	#tree{
+		width: 22px;
+	}
+
+	.photo{
+		min-width: percentage(96 / 280);
+	}
+}
+
+@media screen and (min-width: @bpExtraLarge){
+	#carousel{
+		.prev,
+		.next{
+			width: 64px;
+			height: 128px;
+			margin: -64px 0 0;
+		}
+
+		.prev{
+			left: -96px;
+		}
+
+		.next{
+			right: -96px;
+		}
+	}
+}
