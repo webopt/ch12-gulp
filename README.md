@@ -16,7 +16,7 @@ Source files are stored and edited in the `src` folder. When the `gulp build` co
 node http.js
 ```
 
-When this runs, a webserver should be up and running at http://localhost:8080 for you to peruse.
+When this runs, a local web server should be up and running at [http://localhost:8080](http://localhost:8080) for you to peruse.
 
 Have fun! You're free to use the gulp boilerplate as you like, except for the site files in `src`. They're just there for illustrative purposes. Empty out that folder and put your own stuff in there if you're going to use this for anything.
 
