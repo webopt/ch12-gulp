@@ -146,4 +146,4 @@ function clean(){
 
 gulp.task(clean);
 
-gulp.task("build", gulp.series(minifyHTML, buildCSS, uglifyJS, concatJS, imageminMain, imageminWebP));
+gulp.task("build", gulp.parallel(minifyHTML, buildCSS, uglifyJS, imageminMain, imageminWebP, gulp.series(uglifyJS, concatJS)));
